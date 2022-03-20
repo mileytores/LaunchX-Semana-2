@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor-header {
@@ -129,8 +128,9 @@ nav>a:hover {
 }
 
 .galeria-1>img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
 }
 
 .galeria-1>h2 {
@@ -171,9 +171,18 @@ nav>a:hover {
     width: 20px;
 }
 
-.listas>h2 {
+.listas>h3 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.listas-parrafo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 380px;
+    text-align: justify;
+    color: #1F3E72;
+    padding-left: 50px;
 }
 
 .emergency-contact {
@@ -187,6 +196,27 @@ nav>a:hover {
 .emergency-contact>p {
     padding-top: 20px;
 }
+
+.boton3 {
+    color: black !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    /*Padding hacia dentro*/
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid;
+    border-color: #DDE7FF;
+    transition: all 1s ease;
+    position: relative;
+
+}
+
+.boton3:hover {
+    background: #2949C7;
+    color: #fff !important;
+}
+
+
 
 .contacto {
     display: grid;
@@ -214,8 +244,8 @@ nav>a:hover {
 }
 
 .contacto-boton>img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .contacto-1 {
@@ -231,16 +261,22 @@ nav>a:hover {
 
 .contacto-botones>input {
     height: 50px;
-    color: #1F3E72;
+    color: #F1F5FF;
     width: 180px;
 }
 
-.contacto-call>h1 {
-    padding-left: 10px;
+.contacto-botones>input:hover {
+    color: black;
 }
 
-.contacto-call>h3 {
+.contacto-call>h2 {
+    padding-left: 10px;
+    color: #1F3E72;
+}
+
+.contacto-call>p {
     padding-top: 10px;
+    color: #1F3E72;
 }
 
 .footer {
@@ -260,7 +296,10 @@ nav>a:hover {
     padding-bottom: 20px;
     color: #1F3E72;
     font-weight: bold;
-    ;
+}
+
+.footer-textos>p {
+    color: #1F3E72;
 }
 
 .footer-final {
@@ -270,9 +309,13 @@ nav>a:hover {
     padding-right: 140px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #1F3E72;
 }
 
 .fuente-azul {
     color: #1F3E72;
-    font-weight: bold;
+}
+.fuente-azul-marino{
+    color: #1F3E72;
+    font-weight: 900;
 }
